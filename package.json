@@ -1,13 +1,12 @@
 {
-  "name": "my-github-page",
+  "name": "aboutme",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --output-path docs --base-href /aboutme/",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "serve:ssr:my-github-page": "node dist/my-github-page/server/server.mjs"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
