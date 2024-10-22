@@ -27,13 +27,13 @@ ENGLISH RESUME
 
 <header
   [ngClass]="{ hidden: selectedLang == 'pt' }"
-  class="grid m-0 pt-4 sm:pt-3 px-3 sm:text-center fadein"
+  class="grid m-0 pt-4 sm:pt-3 px-3 md:text-center fadein"
 >
   <h1 class="col-12 m-0 p-0">Rafael de Castro</h1>
   <h3 class="col-12 m-0 mb-3 p-0 font-medium">Front-end Developer</h3>
 
   <div
-    class="col-12 flex flex-column md:flex-row justify-content-center gap-2 md:gap-4"
+    class="col-12 flex flex-column md:flex-row justify-content-center gap-2 md:gap-4 px-0"
   >
     <div>
       <i class="bi bi-envelope mr-2"></i>
@@ -47,7 +47,7 @@ ENGLISH RESUME
   </div>
 
   <div
-    class="pb-4 col-12 flex flex-column md:flex-row justify-content-center gap-2 md:gap-4 border-bottom-3 border-200"
+    class="pb-4 col-12 flex flex-column md:flex-row justify-content-center gap-2 md:gap-4 px-0"
   >
     <div>
       <i class="bi bi-github mr-2"></i>
@@ -85,10 +85,10 @@ ENGLISH RESUME
   [ngClass]="{ hidden: selectedLang == 'pt' }"
   class="grid px-3 pt-2 fadein"
 >
-  <aside class="col-12 md:col-4 m-0">
+  <aside class="col-12 md:col-4 m-0 pt-0">
     <section class="mb-5">
-      <h4 class="border-bottom-3 border-200 pb-2 uppercase my-0">Summary</h4>
-      <p class="mt-2">
+      <h4 class="pb-2 uppercase my-0">Summary</h4>
+      <p class="mt-3">
         Front-end Engineer with over 8 years of experience designing and
         developing scalable, high-performance web applications using Angular,
         HTML5, SASS, and TypeScript. Has delivered several responsive,
@@ -100,8 +100,8 @@ ENGLISH RESUME
     </section>
 
     <section class="mb-5">
-      <h4 class="border-bottom-3 border-200 pb-2 uppercase my-0">Education</h4>
-      <p class="font-semibold mb-1 mt-2">
+      <h4 class="pb-2 uppercase my-0">Education</h4>
+      <p class="font-semibold mb-1 mt-3">
         Bachelor of Science in Computer Science
       </p>
       <p class="m-0">Faculdade Boa Viagem</p>
@@ -111,10 +111,8 @@ ENGLISH RESUME
     </section>
 
     <section class="mb-5">
-      <h4 class="border-bottom-3 border-200 pb-2 uppercase my-0">
-        Technical Skills
-      </h4>
-      <p class="mt-2">
+      <h4 class="pb-2 uppercase my-0">Technical Skills</h4>
+      <p class="mt-3">
         <strong>Languages: </strong>JavaScript, TypeScript, HTML5, CSS3, Sass
       </p>
       <p class="mt-2">
@@ -133,10 +131,8 @@ ENGLISH RESUME
     </section>
 
     <section class="mb-5">
-      <h4 class="border-bottom-3 border-200 pb-2 uppercase my-0">
-        Soft Skills
-      </h4>
-      <p class="mt-2">
+      <h4 class="pb-2 uppercase my-0">Soft Skills</h4>
+      <p class="mt-3">
         Problem-solving, Technical writing, Active listening, Flexibility,
         Resilience, Teamwork and collaboration, Conflict Resolution, Emotional
         Intelligence, Time management
@@ -144,22 +140,22 @@ ENGLISH RESUME
     </section>
 
     <section class="">
-      <h4 class="border-bottom-3 border-200 pb-2 uppercase my-0">Languages</h4>
+      <h4 class="pb-2 uppercase my-0">Languages</h4>
       <ul>
         <li>Portuguese (Native)</li>
-        <li>English (Good listener, reasonable speaker)</li>
+        <li class="mt-2">English (Advanced)</li>
       </ul>
     </section>
   </aside>
 
-  <div class="col-12 md:col-8 m-0">
+  <div class="col-12 md:col-8 m-0 pt-0">
     <section class="mb-5">
-      <h4 class="border-bottom-3 border-200 pb-2 uppercase my-0">
-        Work Experience
-      </h4>
+      <h4 class="pb-2 uppercase my-0">Work Experience</h4>
 
       <article class="mt-3">
-        <p class="font-semibold m-0 mb-2">Senior Front-end Developer</p>
+        <p class="font-semibold m-0 mb-2 border-200 border-bottom-2">
+          Senior Front-end Developer
+        </p>
 
         <p
           class="text-sm font-medium m-0 mb-1 flex flex-column sm:flex-row justify-content-between"
@@ -168,25 +164,26 @@ ENGLISH RESUME
         </p>
         <ul>
           <li>
-            Led the development of a scalable management platform that optimized
-            workflows and integration between different teams, enabling
-            efficient collaboration, which improved overall business
-            assertiveness and data accuracy.
+            Developed a scalable management platform that optimized workflows
+            and team integration, enabling efficient collaboration and improving
+            overall business decision-making and data accuracy.
           </li>
-          <li>
+          <li class="mt-2">
             Designed and implemented a user-friendly platform for rural farmers,
-            focusing on simplifying the user experience for a diverse audience,
-            often with technological limitations
+            with a focus on simplifying the user experience for a diverse
+            audience, many of whom face technological limitations.
           </li>
-          <li>
+          <li class="mt-2">
             Streamlined workflows for users with limited technical expertise,
-            resulting in a significant reduction in operational errors.
+            leading to a significant reduction in operational errors.
           </li>
         </ul>
       </article>
 
-      <article class="mt-3">
-        <p class="font-semibold m-0 mb-2">Front-end Developer</p>
+      <article class="mt-5">
+        <p class="font-semibold m-0 mb-2 border-200 border-bottom-2">
+          Front-end Developer
+        </p>
 
         <p
           class="text-sm font-medium m-0 mb-1 flex flex-column sm:flex-row justify-content-between"
@@ -198,15 +195,15 @@ ENGLISH RESUME
             Developed and maintained front-end solutions for a variety of
             educational software applications using Angular framework.
           </li>
-          <li>
+          <li class="mt-2">
             Contributed to the development of Miedu's mobile app solutions,
             ensuring seamless user interactions and performance.
           </li>
         </ul>
       </article>
 
-      <article class="mt-3">
-        <p class="font-semibold m-0 mb-2">
+      <article class="mt-5">
+        <p class="font-semibold m-0 mb-2 border-200 border-bottom-2">
           Autonomous Senior Front-end Developer
         </p>
 
@@ -220,33 +217,39 @@ ENGLISH RESUME
             Developed cross-platform mobile apps with Ionic/Capacitor for the
             educational sector, targeting Portuguese language learners.
           </li>
-          <li>
+          <li class="mt-2">
             Achieved 900,000+ downloads on Google Play, showcasing the app's
             wide acceptance and effectiveness.
           </li>
-          <li>
+          <li class="mt-2">
             Provided users with a valuable, accessible tool for language
             learning, which is now widely adopted by students.
           </li>
         </ul>
       </article>
 
-      <article class="mt-3">
-        <p class="font-semibold m-0 mb-2">Front-end Developer</p>
+      <article class="mt-5">
+        <p class="font-semibold m-0 mb-2 border-200 border-bottom-2">
+          Front-end Developer
+        </p>
 
         <p
           class="text-sm font-medium m-0 mb-1 flex flex-column sm:flex-row justify-content-between"
         >
           Dotbin <small>October 2013 - February 2014</small>
         </p>
-        <p class="m-0">
-          Development and support of the Sonar social network and application.
-          Own product developed by Dotbin.
-        </p>
+        <ul>
+          <li>
+            Developed and supported the Sonar social network and application, an
+            in-house product created by Dotbin.
+          </li>
+        </ul>
       </article>
 
-      <article class="mt-3">
-        <p class="font-semibold m-0 mb-2">Junior Front-end Developer</p>
+      <article class="mt-5">
+        <p class="font-semibold m-0 mb-2 border-200 border-bottom-2">
+          Junior Front-end Developer
+        </p>
 
         <p
           class="text-sm font-medium m-0 mb-1 flex flex-column sm:flex-row justify-content-between"
@@ -255,10 +258,10 @@ ENGLISH RESUME
         </p>
         <ul>
           <li>
-            Worked on adapting the design team's wireframes and mockups into
-            functional, user-friendly interfaces.
+            Adapted the design team's wireframes and mockups into functional,
+            user-friendly interfaces.
           </li>
-          <li>
+          <li class="mt-2">
             Developed and maintained front-end components for a variety of
             digital products, including websites, applications, and blogs.
           </li>
@@ -267,59 +270,59 @@ ENGLISH RESUME
     </section>
 
     <section class="mb-5">
-      <h4 class="border-bottom-3 border-200 pb-2 uppercase my-0">Projects</h4>
+      <h4 class="pb-2 uppercase my-0">Projects</h4>
 
       <article class="mt-3">
-        <p class="font-semibold m-0 mb-2">
+        <p class="font-semibold m-0 mb-2 border-200 border-bottom-2">
           Português Coruja
           <a
             href="https://play.google.com/store/apps/details?id=br.com.heavygo.ptcoruja"
             target="_blank"
-            class="ml-2 text-500"
+            class="ml-2 text-500 no-underline"
             title="Google Playstore link to Português Coruja app"
           >
-            <small><i class="bi bi-google-play mr-1"></i>Link</small>
+            <i class="bi bi-google-play mr-1"></i>Link
           </a>
         </p>
 
         <p class="m-0">
           Developed an educational app featured on the Google Play Store,
-          helping students learn the Portuguese language.
+          designed to help students learn the Portuguese language.
         </p>
         <ul>
           <li>
             Created an intuitive learning experience that resulted in 900,000+
             downloads.
           </li>
-          <li>
+          <li class="mt-2">
             Increased user retention through continuous content creation and UX
             improvements.
           </li>
-          <li>
+          <li class="mt-2">
             Made a positive impact on language learning for a wide audience.
           </li>
         </ul>
       </article>
 
-      <article class="mt-3">
-        <p class="font-semibold m-0 mb-2">
+      <article class="mt-5">
+        <p class="font-semibold m-0 mb-2 border-200 border-bottom-2">
           HSCard Maker <span class="font-italic">(discontinued)</span>
         </p>
 
         <p class="m-0">
-          Developed a tool for enthusiasts players of Blizzard’s card game
-          Hearthstone. Allowing users to create and customize their cards.
+          Developed a tool for enthusiasts of Blizzard’s card game Hearthstone,
+          allowing users to create and customize their own cards.
         </p>
         <ul>
           <li>
             The app offered a user-friendly interface, making it easy for both
             experienced and novice players to create cards.
           </li>
-          <li>
+          <li class="mt-2">
             Users could customize every aspect of their cards, including name,
             mana cost, artwork, and effects.
           </li>
-          <li>
+          <li class="mt-2">
             The app often had features that allowed players to share their
             creations with others, fostering a vibrant community of card
             designers.
@@ -338,13 +341,13 @@ PORTUGUESE RESUME
 
 <header
   [ngClass]="{ hidden: selectedLang == 'en' }"
-  class="grid m-0 pt-4 sm:pt-3 px-3 sm:text-center fadein"
+  class="grid m-0 pt-4 sm:pt-3 px-3 md:text-center fadein"
 >
   <h1 class="col-12 m-0 p-0">Rafael de Castro</h1>
   <h3 class="col-12 m-0 mb-3 p-0 font-medium">Desenvolvedor Front-end</h3>
 
   <div
-    class="col-12 flex flex-column md:flex-row justify-content-center gap-2 md:gap-4"
+    class="col-12 flex flex-column md:flex-row justify-content-center gap-2 md:gap-4 px-0"
   >
     <div>
       <i class="bi bi-envelope mr-2"></i>
@@ -358,7 +361,7 @@ PORTUGUESE RESUME
   </div>
 
   <div
-    class="pb-4 col-12 flex flex-column md:flex-row justify-content-center gap-2 md:gap-4 border-bottom-3 border-200"
+    class="pb-4 col-12 flex flex-column md:flex-row justify-content-center gap-2 md:gap-4 px-0"
   >
     <div>
       <i class="bi bi-github mr-2"></i>
@@ -396,10 +399,10 @@ PORTUGUESE RESUME
   [ngClass]="{ hidden: selectedLang == 'en' }"
   class="grid px-3 pt-2 fadein"
 >
-  <aside class="col-12 md:col-4 m-0">
+  <aside class="col-12 md:col-4 m-0 pt-0">
     <section class="mb-5">
-      <h4 class="border-bottom-3 border-200 pb-2 uppercase my-0">Resumo</h4>
-      <p class="mt-2">
+      <h4 class="pb-2 uppercase my-0">Resumo</h4>
+      <p class="mt-3">
         Engenheiro Front-end com mais de 8 anos de experiência em design e
         desenvolvimento de aplicativos web escaláveis ​​e de alto desempenho
         usando Angular, HTML5, SASS e TypeScript. Já entregou diversas soluções
@@ -411,8 +414,8 @@ PORTUGUESE RESUME
     </section>
 
     <section class="mb-5">
-      <h4 class="border-bottom-3 border-200 pb-2 uppercase my-0">Educação</h4>
-      <p class="font-semibold mb-1 mt-2">Bacharel em Ciência da Computação</p>
+      <h4 class="pb-2 uppercase my-0">Educação</h4>
+      <p class="font-semibold mb-1 mt-3">Bacharel em Ciência da Computação</p>
       <p class="m-0">Faculdade Boa Viagem</p>
       <div>
         <small>Janeiro 2007 - Junho 2012</small>
@@ -420,10 +423,8 @@ PORTUGUESE RESUME
     </section>
 
     <section class="mb-5">
-      <h4 class="border-bottom-3 border-200 pb-2 uppercase my-0">
-        Habilidades Técnicas
-      </h4>
-      <p class="mt-2">
+      <h4 class="pb-2 uppercase my-0">Habilidades Técnicas</h4>
+      <p class="mt-3">
         <strong>Linguagens: </strong>JavaScript, TypeScript, HTML5, CSS3, Sass
       </p>
       <p class="mt-2">
@@ -442,11 +443,11 @@ PORTUGUESE RESUME
     </section>
 
     <section class="mb-5">
-      <h4 class="border-bottom-3 border-200 pb-2 uppercase my-0">
+      <h4 class="pb-2 uppercase my-0">
         Habilidades Sociais
         <span class="font-italic">(Soft Skills)</span>
       </h4>
-      <p class="mt-2">
+      <p class="mt-3">
         Resolução de problemas, Escrita técnica, Bom ouvinte, Flexibilidade,
         Resiliência, Trabalho em equipe e colaboração, Resolução de conflitos,
         Inteligência emocional, Gestão de tempo
@@ -454,22 +455,22 @@ PORTUGUESE RESUME
     </section>
 
     <section class="">
-      <h4 class="border-bottom-3 border-200 pb-2 uppercase my-0">Línguas</h4>
+      <h4 class="pb-2 uppercase my-0">Línguas</h4>
       <ul>
         <li>Português (Nativo)</li>
-        <li>Inglês (Ótimo ouvinte, conversador razoável)</li>
+        <li class="mt-2">Inglês (Avançado)</li>
       </ul>
     </section>
   </aside>
 
-  <div class="col-12 md:col-8 m-0">
+  <div class="col-12 md:col-8 m-0 pt-0">
     <section class="mb-5">
-      <h4 class="border-bottom-3 border-200 pb-2 uppercase my-0">
-        Experiência de Trabalho
-      </h4>
+      <h4 class="pb-2 uppercase my-0">Experiência de Trabalho</h4>
 
       <article class="mt-3">
-        <p class="font-semibold m-0 mb-2">Desenvolvedor Front-end Sênior</p>
+        <p class="font-semibold m-0 mb-2 border-200 border-bottom-2">
+          Desenvolvedor Front-end Sênior
+        </p>
 
         <p
           class="text-sm font-medium m-0 mb-1 flex flex-column sm:flex-row justify-content-between"
@@ -478,17 +479,18 @@ PORTUGUESE RESUME
         </p>
         <ul>
           <li>
-            Liderou o desenvolvimento de uma plataforma de gestão escalável que
-            otimizou os fluxos de trabalho e a integração entre diferentes
-            equipes, permitindo uma colaboração eficiente, o que melhorou a
-            assertividade geral dos negócios e a precisão dos dados.
+            Desenvolveu, em colaboração com a equipe de TI, uma plataforma de
+            gestão escalável que otimizou os fluxos de trabalho e a integração
+            entre diferentes áreas, permitindo uma colaboração eficiente e
+            melhorando a assertividade geral dos negócios e a precisão dos
+            dados.
           </li>
-          <li>
-            Implementou uma plataforma amigável para agricultores rurais, com
-            foco na simplificação da experiência do usuário para um público
-            diverso, frequentemente com limitações tecnológicas
+          <li class="mt-2">
+            Implementou uma plataforma amigável para agricultores rurais,
+            focando na simplificação da experiência do usuário para um público
+            diverso, que frequentemente apresentava limitações tecnológicas.
           </li>
-          <li>
+          <li class="mt-2">
             Simplificou fluxo de trabalho para usuários com conhecimento técnico
             limitado, resultando em uma redução significativa de erros
             operacionais.
@@ -496,8 +498,10 @@ PORTUGUESE RESUME
         </ul>
       </article>
 
-      <article class="mt-3">
-        <p class="font-semibold m-0 mb-2">Desenvolvedor Front-end</p>
+      <article class="mt-5">
+        <p class="font-semibold m-0 mb-2 border-200 border-bottom-2">
+          Desenvolvedor Front-end
+        </p>
 
         <p
           class="text-sm font-medium m-0 mb-1 flex flex-column sm:flex-row justify-content-between"
@@ -509,15 +513,17 @@ PORTUGUESE RESUME
             Desenvolveu e manteve soluções front-end para uma variedade de
             aplicativos de software educacional usando o framework Angular.
           </li>
-          <li>
+          <li class="mt-2">
             Contribuiu para o desenvolvimento das aplicações móveis da Miedu,
             garantindo desempenho, boa usabilidade e aderência dos usuários.
           </li>
         </ul>
       </article>
 
-      <article class="mt-3">
-        <p class="font-semibold m-0 mb-2">Desenvolvedor Front-end Autônomo</p>
+      <article class="mt-5">
+        <p class="font-semibold m-0 mb-2 border-200 border-bottom-2">
+          Desenvolvedor Front-end Autônomo
+        </p>
 
         <p
           class="text-sm font-medium m-0 mb-1 flex flex-column sm:flex-row justify-content-between"
@@ -529,33 +535,39 @@ PORTUGUESE RESUME
             Desenvolveu aplicativos móveis multiplataforma com Ionic/Capacitor
             para o setor educacional, visando estudantes de língua portuguesa.
           </li>
-          <li>
+          <li class="mt-2">
             Forneceu aos usuários uma ferramenta valiosa e acessível para o
             aprendizado de idiomas, que agora é amplamente adotada pelos alunos.
           </li>
-          <li>
+          <li class="mt-2">
             Atingiu mais de 900.000 downloads no Google Play, demonstrando a
             ampla aceitação e eficácia do aplicativo.
           </li>
         </ul>
       </article>
 
-      <article class="mt-3">
-        <p class="font-semibold m-0 mb-2">Desenvoldedor Front-end</p>
+      <article class="mt-5">
+        <p class="font-semibold m-0 mb-2 border-200 border-bottom-2">
+          Desenvoldedor Front-end
+        </p>
 
         <p
           class="text-sm font-medium m-0 mb-1 flex flex-column sm:flex-row justify-content-between"
         >
           Dotbin <small>Outubro 2013 - Fevereiro 2014</small>
         </p>
-        <p class="m-0">
-          Desenvolvimento e suporte da rede social e aplicativo Sonar. Produto
-          próprio desenvolvido pela Dotbin.
-        </p>
+        <ul>
+          <li>
+            Desenvolvimento e suporte da rede social e do aplicativo Sonar,
+            produto proprietário desenvolvido pela Dotbin.
+          </li>
+        </ul>
       </article>
 
-      <article class="mt-3">
-        <p class="font-semibold m-0 mb-2">Desenvoldedor Front-end Júnior</p>
+      <article class="mt-5">
+        <p class="font-semibold m-0 mb-2 border-200 border-bottom-2">
+          Desenvoldedor Front-end Júnior
+        </p>
 
         <p
           class="text-sm font-medium m-0 mb-1 flex flex-column sm:flex-row justify-content-between"
@@ -567,7 +579,7 @@ PORTUGUESE RESUME
             Trabalhou adaptando wireframes e mockups da equipe de design em
             interfaces funcionais e amigáveis ​​ao usuário.
           </li>
-          <li>
+          <li class="mt-2">
             Desenvolveu e manteve componentes front-end para uma variedade de
             produtos digitais, incluindo sites, aplicativos e blogs.
           </li>
@@ -576,62 +588,62 @@ PORTUGUESE RESUME
     </section>
 
     <section class="mb-5">
-      <h4 class="border-bottom-3 border-200 pb-2 uppercase my-0">Projetos</h4>
+      <h4 class="pb-2 uppercase my-0">Projetos</h4>
 
       <article class="mt-3">
-        <p class="font-semibold m-0 mb-2">
+        <p class="font-semibold m-0 mb-2 border-200 border-bottom-2">
           Português Coruja
           <a
             href="https://play.google.com/store/apps/details?id=br.com.heavygo.ptcoruja"
             target="_blank"
-            class="ml-2 text-500"
+            class="ml-2 text-500 no-underline"
             title="Google Playstore link to Português Coruja app"
           >
-            <small><i class="bi bi-google-play mr-1"></i>Link</small>
+            <i class="bi bi-google-play mr-1"></i>Link
           </a>
         </p>
 
         <p class="m-0">
-          Desenvolveu um aplicativo educacional apresentado na Google Play
-          Store, ajudando os alunos a aprender a língua portuguesa.
+          Desenvolveu um aplicativo educacional, disponível na Google Play
+          Store, que auxilia os alunos no aprendizado da língua portuguesa.
         </p>
         <ul>
           <li>
             Criou uma experiência de aprendizagem intuitiva que resultou em mais
             de 900.000 downloads.
           </li>
-          <li>
+          <li class="mt-2">
             Aumento da retenção de usuários por meio da criação contínua de
             conteúdo e melhorias de UX.
           </li>
-          <li>
+          <li class="mt-2">
             Causou um impacto positivo na aprendizagem de línguas para um
             público amplo.
           </li>
         </ul>
       </article>
 
-      <article class="mt-3">
-        <p class="font-semibold m-0 mb-2">
+      <article class="mt-5">
+        <p class="font-semibold m-0 mb-2 border-200 border-bottom-2">
           HSCard Maker
           <span class="font-italic">(descontinuado)</span>
         </p>
 
         <p class="m-0">
           Desenvolveu uma ferramenta para entusiastas do jogo de cartas
-          Hearthstone da Blizzard. Permitindo que os usuários criassem e
-          personalizem suas próprias cartas.
+          Hearthstone, da Blizzard, permitindo que os usuários criassem e
+          personalizassem suas próprias cartas.
         </p>
         <ul>
           <li>
             O aplicativo oferecia uma interface amigável, tornando fácil para
             jogadores experientes e novatos criarem suas cartas.
           </li>
-          <li>
+          <li class="mt-2">
             Os usuários podiam personalizar todos os aspectos de suas cartas,
             incluindo nome, custo de mana, arte e efeitos.
           </li>
-          <li>
+          <li class="mt-2">
             O aplicativo tinha recursos que permitiam aos jogadores compartilhar
             suas criações nas redes sociais, promovendo uma vibrante comunidade
             de fãs e designers de cartas.
